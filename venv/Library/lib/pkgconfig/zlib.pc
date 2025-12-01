@@ -1,0 +1,13 @@
+prefix=F:/Python Journy/krish naiak/venv/Library
+exec_prefix=F:/Python Journy/krish naiak/venv/Library
+libdir=F:/Python Journy/krish naiak/venv/Library/lib
+sharedlibdir=F:/Python Journy/krish naiak/venv/Library/lib
+includedir=F:/Python Journy/krish naiak/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
